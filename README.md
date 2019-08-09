@@ -40,7 +40,7 @@ Dr. Fabian Gülzau, HU Berlin ([Website](https://fguelzau.rbind.io/), [Twitter](
 Die Kursvoraussetzungen werden mit den TeilnehmerInnen noch weiter abgestimmt. 
 Wünschenswert sind Grundkenntnisse der Programmiersprache R. Gute Einführungen in
 R sind kostenlos verfügbar:
-- [R for Data Science](https://r4ds.had.co.nz/)) (Wickham & Grolemund, 2017) [Kap. 1 & 4-6]
+- [R for Data Science](https://r4ds.had.co.nz/) (Wickham & Grolemund, 2017) [Kap. 1 & 4-6]
 - Primers in der RStudio Cloud: [Working with data](https://rstudio.cloud/learn/primers/2)
 - [swirl](https://swirlstats.com/): Learn R, in R.
 
