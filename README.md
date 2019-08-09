@@ -5,7 +5,7 @@ Web Scraping und Text Mining Workshop - FAU Erlangen-Nürnberg (2019/09/28)
 
 **Abstract**
 
-> If programming is magic, then *web scraping* is wizardry (Mitchell 2015: vii)
+> If programming is magic, then *web scraping* is wizardry ([Mitchell 2015: vii](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/))
 
 Der Workshop führt die TeilnehmerInnen in die Techniken des Web Scraping und Text 
 Mining ein. Digitale Daten bieten der (sozial-)wissenschaftlichen Forschung eine
@@ -15,11 +15,12 @@ humanities" (DH), die es erlauben das Potential digitaler Daten zu nutzen, in
 einschlägigen Curricula bisher kaum integriert. Der Workshop nutzt die 
 Programmiersprache R, um den TeilnehmerInnen anhand von "hands-on"-Beispielen das
 Feld der CSS/DH zu eröffnen. 
-Dabei wird zunächst anhand einiger bahnbrechenden Studien das Potential digitaler
-Daten demonstriert. Im Anschluss gibt es eine Einführung ind die grundlegenden 
+Dabei wird zunächst anhand von einschlägigen Studien das Potential digitaler
+Daten demonstriert. Im Anschluss gibt es eine Einführung in die grundlegenden 
 Technologien des WWW, welche wir benötigen, um erste eigene "Web Scraper" zu 
 programmieren. Darauffolgend bauen wir diese Skripte aus, um komplexere Datenabfragen 
-zu ermöglichen. Zuletzt werden neuere Methoden vorgestellt, die "text as data" 
+zu durchzuführen. Zuletzt werden neuere Methoden vorgestellt, die "text as data" 
+([Grimmer & Stewart, 2013](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20)) 
 behandeln und es erlauben große Textkorpora zu bearbeiten. Während des Workshops 
 soll die Möglichkeit bestehen eigene Projekte zu diskutieren, sodass das gewonnene
 Wissen in den Projekten eingesetzt werden kann. 
