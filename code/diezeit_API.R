@@ -43,7 +43,7 @@ zeit.df %>%
 # ------------------------------------------------ #
 # Get the articles
 query.df <- tibble(
-  links = paste0(map(query, "href")$content, "/komplettansicht"))
+  links = paste0(query$content$href, "/komplettansicht"))
   
 # Check for multiple pages
 multipage <- map(query.df$links, ~{
