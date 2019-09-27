@@ -39,6 +39,8 @@ study.df <- response %>%
 
 # SLIDE 25: Studium.org: Internetseite kennenlernen
 ## ---------------------------------------------------------------------- ##
+# /robots.txt
+
 paths_allowed(
   paths  = c("/erziehungswissenschaft"), 
   domain = c("studium.org"), 
@@ -153,7 +155,7 @@ uni.df <- uni.df %>%
 var_names <- read_html(links$link[1]) %>%
   html_nodes(".rel.fs4") %>%
   html_text() %>%
-  bracketX() %>%         # Cleaning
+  bracketX() %>%         # Cleaning (qdap::bracketX)
   tolower() %>%          # ...
   str_replace_all(.,     # ...
                   " ", 
