@@ -25,17 +25,17 @@ behandeln und es erlauben große Textkorpora zu bearbeiten. Während des Worksho
 soll die Möglichkeit bestehen eigene Projekte zu diskutieren, sodass das gewonnene
 Wissen in den Projekten eingesetzt werden kann. 
 
-**Organisation**
+**Organisation:**
 BMBF-Förderschwerpunkt "Forschung zur Digitalisierung in der Kulturellen Bildung" ([DiKuBi](https://www.dikubi-meta.fau.de/))
 
-**Ort/Zeit der Veranstaltung**
+**Ort/Zeit der Veranstaltung:**
 Samstag, 28. September 2019, 9:15-13:15 Uhr, Kulturwerkstatt Auf AEG Nürnberg
 
-**Dozent**
+**Dozent:**
 Dr. Fabian Gülzau, HU Berlin ([Website](https://fguelzau.rbind.io/), [Twitter](https://twitter.com/FabFuchs))
 
-**Folien**
-(demnächst)
+**Folien:**
+[Web Scraping mit R](https://fabianfox.github.io/Webscraping-FAU-Slides/Webscraping_FAU.html#1)
 
 **Voraussetzungen**
 Die Kursvoraussetzungen werden mit den TeilnehmerInnen noch weiter abgestimmt. 
@@ -46,4 +46,11 @@ R sind kostenlos verfügbar:
 - [swirl](https://swirlstats.com/): Learn R, in R.
 
 Für die praktischen Beispiele ist ein Rechner mit den aktuellen Versionen von [R](https://www.r-project.org/) 
-und [RStudio](https://www.rstudio.com/products/rstudio/download/) notwendig. Zudem sollten einige Pakete vorab installiert werden. Diese werden hier noch bekanntgegeben.
+und [RStudio](https://www.rstudio.com/products/rstudio/download/) notwendig. Zudem sollten einige Pakete vorab installiert werden:
+
+```
+install.packages(pacman) # Installation nur einmal notwendig
+library(pacman)
+p_load(tidyverse, httr, robotstxt, qdap, janitor,
+       devtools, lubridate, rzeit2)
+```
