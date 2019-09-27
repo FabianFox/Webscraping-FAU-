@@ -1,5 +1,10 @@
+# Internet availability in German households
+# Eurostat-API
+
 # Load required packages
-pacman::p_load(tidyverse, eurostat, ggrepel)
+if(!require(pacman)) install.packages(pacman)
+pacman::p_load(tidyverse, 
+               eurostat, ggrepel) # example specific
 
 # Get the data using the eurostat-API and plot with ggplot2
 get_eurostat("isoc_r_iacc_h", time_format = "date",
