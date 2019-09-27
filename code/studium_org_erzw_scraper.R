@@ -72,13 +72,11 @@ uni.df <- steckbrief.info %>%
 # (C) RegEx: Transform messy numbers to tidy ones
 uni.df <- uni.df %>%
   mutate(value = 
-           str_extract_all(value, "[:digit:]+,|.[:digit:]+") %>%
-           map(., paste0, collapse = "") %>%
-           unlist() %>%
-           str_replace_all("\\.", "") %>%
-           str_replace_all(., ",", "\\.") %>%
-           parse_number()
-  )
+           str_extract(value, "[:digit:]+(,?|.?)[:digit:]+") %>%
+           str_replace_all(., "\\.", "") %>%
+           str_replace_all(., ",", ".") %>%
+           parse_number() 
+         )
 
 # (D) Scrape variable names
 # Scrape variable names for the construction of a data frame
