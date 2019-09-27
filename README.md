@@ -37,7 +37,7 @@ Dr. Fabian Gülzau, HU Berlin ([Website](https://fguelzau.rbind.io/), [Twitter](
 **Folien:**
 [Web Scraping mit R](https://fabianfox.github.io/Webscraping-FAU-Slides/Webscraping_FAU.html#1)
 
-**Voraussetzungen**
+**Voraussetzungen:**
 Die Kursvoraussetzungen werden mit den TeilnehmerInnen noch weiter abgestimmt. 
 Wünschenswert sind Grundkenntnisse der Programmiersprache R. Gute Einführungen in
 R sind kostenlos verfügbar:
